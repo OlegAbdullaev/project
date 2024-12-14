@@ -1,0 +1,19 @@
+Установите зависимости:
+
+1)
+#bash
+pip install pyTelegramBotAPI googletrans==4.0.0-rc1 selenium apscheduler folium 
+
+#информация
+googletrans              4.0.0rc1
+folium                   0.18.0
+pyTelegramBotAPI         4.24.0
+APScheduler              3.11.0
+selenium                 4.27.1
+
+2)
+Скачайте ChromeDriver и убедитесь, что он соответствует вашей версии Chrome. (версия ChromeDriver должна совпадать с версией браузера)
+
+3)
+Укажите путь к chromedriver в функции generate_map_with_folium. 
+
